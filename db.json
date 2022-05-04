@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Ali Rashid",
+      "password": "test123",
+      "operating_system": "Android",
+      "device_name": "",
+      "device_mac_address": "",
+      "imei": "",
+      "Location": "",
+      "public_ip": "101.101.101.101"
+    }
+  ]
+}

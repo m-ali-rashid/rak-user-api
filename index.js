@@ -42,7 +42,7 @@ app.post("/users", function (req, res) {
   });
 });
 
-app.listen(3000, () => console.log("listening to 3000"));
+app.listen(port, () => console.log("listening"));
 
 // server.use(middlewares);
 // server.use(router);

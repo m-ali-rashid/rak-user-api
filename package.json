@@ -1,0 +1,12 @@
+{
+  "name": "rak-user-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/m-ali-rashid/rak-user-api.git",
+  "author": "Ali Rashid <ali.rashed@live.com>",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

@@ -11,9 +11,6 @@ const bodyParser = require("body-parser");
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-// let rawdata = fs.readFileSync('student.json');
-// let student = JSON.parse(rawdata);
-// console.log(student);
 
 app.get("/", (req, res) => {
   let rawdata = fs.readFileSync("db.json");
@@ -23,12 +20,14 @@ app.get("/", (req, res) => {
 });
 
 app.post("/users", function (req, res) {
-  console.log(req.body);
-
+  // console.log(req.body);
+  // let temp = req.body;
+  // res.send({ temp, msg: "User Added, Database Updated successfully" });
+  // return;
   let rawdata = fs.readFileSync("db.json");
   let users = JSON.parse(rawdata);
   console.log(users);
-  users.push(req.body);
+  users.unshift(req.body);
   console.log(users);
 
   let data = JSON.stringify(users);
@@ -36,8 +35,7 @@ app.post("/users", function (req, res) {
     if (err) console.log(err);
     else {
       console.log("File written successfully\n");
-      // console.log("The written has the following contents:");
-      // console.log(fs.readFileSync("books.txt", "utf8"));
+      res.send({ users, msg: "User Added, Database Updated successfully" });
     }
   });
 });

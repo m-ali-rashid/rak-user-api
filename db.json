@@ -1,15 +1,22 @@
-{
-  "users": [
-    {
-      "id": 0,
-      "name": "Ali Rashid",
-      "password": "test123",
-      "operating_system": "Android",
-      "device_name": "",
-      "device_mac_address": "",
-      "imei": "",
-      "Location": "",
-      "public_ip": "101.101.101.101"
-    }
-  ]
-}
+[
+  {
+    "user": "",
+    "password": "",
+    "operating_system": "iOS",
+    "device_name": "Apple iPhone 12",
+    "device_mac": "02:00:00:00:00:00",
+    "imei": "N/A",
+    "gps_location": "",
+    "public_ip": "192.168.1.117"
+  },
+  {
+    "user": "",
+    "password": "",
+    "operating_system": "iOS",
+    "device_name": "Apple iPhone 12",
+    "device_mac": "02:00:00:00:00:00",
+    "imei": "N/A",
+    "gps_location": "",
+    "public_ip": "192.168.1.117"
+  }
+]

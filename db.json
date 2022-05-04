@@ -1,1 +1,12 @@
-[{"user":"","password":"","operating_system":"iOS","device_name":"Apple iPhone 12","device_mac":"02:00:00:00:00:00","imei":"N/A","gps_location":"","public_ip":"192.168.1.117","loggedInDate":"","loggedInTime":""},{"user":"","password":"","operating_system":"iOS","device_name":"Apple iPhone 12","device_mac":"02:00:00:00:00:00","imei":"N/A","gps_location":"","public_ip":"192.168.1.117","loggedInDate":"","loggedInTime":""},{"user":"","password":"","operating_system":"iOS","device_name":"Apple iPhone 12","device_mac":"02:00:00:00:00:00","imei":"N/A","gps_location":"","public_ip":"192.168.1.117","loggedInDate":"","loggedInTime":""},{"user":"","password":"","operating_system":"iOS","device_name":"Apple iPhone 12","device_mac":"02:00:00:00:00:00","imei":"N/A","gps_location":"","public_ip":"192.168.1.117","loggedInDate":"","loggedInTime":""},{"user":"","password":"","operating_system":"iOS","device_name":"Apple iPhone 12","device_mac":"02:00:00:00:00:00","imei":"N/A","gps_location":"","public_ip":"192.168.1.117"},{"user":"","password":"","operating_system":"iOS","device_name":"Apple iPhone 12","device_mac":"02:00:00:00:00:00","imei":"N/A","gps_location":"","public_ip":"192.168.1.117"}]
+[
+  {
+    "user": "",
+    "password": "",
+    "operating_system": "iOS",
+    "device_name": "Apple iPhone 12",
+    "device_mac": "02:00:00:00:00:00",
+    "imei": "N/A",
+    "gps_location": "",
+    "public_ip": "192.168.1.117"
+  }
+]

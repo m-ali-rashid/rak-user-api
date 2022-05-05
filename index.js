@@ -20,28 +20,18 @@ app.get("/", (req, res) => {
 });
 
 app.post("/users", function (req, res) {
-  // console.log(req.body);
-  // let temp = req.body;
-  // res.send({ temp, msg: "User Added, Database Updated successfully" });
-  // return;
   let rawdata = fs.readFileSync("db.json");
   let users = JSON.parse(rawdata);
-  console.log(users);
   users.unshift(req.body);
-  console.log(users);
-
   let data = JSON.stringify(users);
-  fs.writeFileSync("db.json", data, (err) => {
-    if (err) console.log(err);
+  fs.writeFile("db.json", data, (err) => {
+    if (err) res.send(err);
     else {
       console.log("File written successfully\n");
-      res.send({ users, msg: "User Added, Database Updated successfully" });
+      // res.json(req.body);
+      res.send(req.body);
     }
   });
 });
 
 app.listen(port, () => console.log("listening"));
-
-// server.use(middlewares);
-// server.use(router);
-// server.listen(port);
